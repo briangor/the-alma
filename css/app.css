@@ -6,19 +6,16 @@
   background-image: url("../assets/image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* .bg-img {
-      position: absolute;
-      z-index: -1;
-      filter: brightness(50%);
-      border: 2px solid red;
-      width: 1200px;
-  } */
 }
 .hero .button {
   font-size: 12px;
 }
 .hero .clear {
   color: #fff;
+}
+.hero .clear:hover {
+  color: rgb(238, 236, 236);
+  text-decoration: underline;
 }
 .hero .btn-white {
   background-color: #fff;
